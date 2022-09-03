@@ -9,9 +9,15 @@ add more stuff
 **Roles**
 
 Team Lead
+
 Tech Lead
+
 Full-Stack Developer
+
 Front-End Developer
+
 Back-End Developer
+
 QA Engineer
+
 UI/UX Designer
