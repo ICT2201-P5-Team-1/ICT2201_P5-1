@@ -1,0 +1,91 @@
+Date: 13 September 2022
+Time: 5.10pm to 5.20pm
+Agenda: Client Meeting for Airline Pilot Application (Requirements Gathering)
+Members: Quah Kian Yang
+         Low Wai Qun
+	   Liew Jwo Young
+         Koh Cheng Kiat
+
+Important Points:
+	1) The managers can see all staff workload.
+	2) Managers allocate for the coming week. For staff availability, they can put up to 5 weeks in advance.
+	3) Any 1 time, the manager can view 3 staff availability. After they send availability, need figure which pilot based on more information.
+	4) Assume there will be no promotion, another system is doing the updating of information such as promotion
+	5) Flights are fixed, fixed timing, which aircraft to fly might change.
+	6) Boeing 737 - short haul flights, less than 3 hours, 10 of these. Boeing 787- medium, 3-6 hours Airbus - long, more than 6 hours.
+	7) Destination go A to B, same plane must fly back. Must track and ensure there is pilot to fly back.
+	8) Every week same schedule of flights.
+	9) Client is unsure of the login security requirements and which one is useful.
+	10) Users allowed to change their own passwords.
+	11) All staff expected to use the application.
+	12) Application up 99.9% of the time.
+	13) Any maintenance will be conducted 3am to 5am, if possible.
+	14) Support mobile browsers, popular ones.
+	15) Total staff:
+		6 training captains
+		22 captain
+		22 senior 1st officer
+		14 1st officer
+		8 2nd officer
+		Admin
+		Manager
+	16) Must be able to see past records.
+
+
+
+Meeting Conversation
+
+Client: What do you want to know from me?
+Liew Jwo Young: You mentioned that the manager needs to be able to visualize the staff workload on the main page? So is it all the staff or only those that they manager is taking care of?
+Client: I am taking care of all of them.
+Client: There are many managers but you can just assume the manager can see all.
+Liew Jwo Young: The manager should be able to allocate the jobs to staff for 1 week at a time, they can only allocate for the coming week? 
+Client: Yes... Ok, no... I allocate for the coming week but when they want to put in their availability, they can put up to 5 weeks
+Liew Jwo Young: The manager should be able to view 3 staff availability when they assign right, so these 3 staff that are shown on the page, are they randomly chosen? Or is it the staff with the least amount of jobs?
+Client: So at any one time, I can view 3. Errr, I mean I would search and view. I don't understand your question.
+Koh Cheng Kiat: As in how will these 3 be chosen out of all the staff? Is it based on their availability?
+Client: Because after they send in their availability, I will have to figure out which pilot fly which flight. Then I will search for more information about them. I don't understand your question.
+Low Wai Qun: So the manager will search for the 3 staff to be shown?
+Client: Up to 3, I can either choose by flight, choose by whatever, and then you just show me 3 at a time.
+Liew Jwo Young: Who should be able to update the information on the application? For example, if I am a pilot, I get promoted.
+Client: Wow promoted? I haven't thought of that.
+Liew Jwo Young: Is the manager the one that updates the information? Or is it like the administrator? Or the system?
+Client: Assume that there is no promotion, somebody is doing this. Another system is updating the same database and accessing the same database.
+Liew Jwo Young: The manager are assigning based on the planes right? Do we need to track the plane's schedules as well? It says that the planes must not stay on the ground for more than 3 hours right? Should there be a way for the manager to be able to view all the planes, flight paths of the planes? Or is this outside the scope of this application?
+Client: When I assigning or allocating, your system would have all these background information of the flights.
+Liew Jwo Young: So we need to track all the flights.
+Koh Cheng Kiat: All the aircrafts as well.
+Client: It's not very difficult, I would think that flights are fixed. Like when you do a search on SQ321, you would find that it's always fixed timing. But which aircraft to fly, it might change. So basically, I have 3 different types of aircrafts. The Boeing 737 I am using for short haul flights, which is less than 3 hours. And I have 10 of these. The Boeing 787, which I have 6 of, is for the medium haul flights, which is 3 to 6 hours. And the Airbus is for the long haul flights, anything more than 6 hours.
+Koh Cheng Kiat: So we just need to make sure that the aircraft at any time can only stay for a maximum of 3 hours on the ground. So there will be a need for the pilots or whoever that is using the system to see the availabilty of the aircraft?
+Client: Ya, that's right. I mean the thing about flights is you must understand the aircraft from destination A to B, you must keep track of the aircraft location. Don't put a pilot from other locations to fly back from destination B.
+Liew Jwo Young: Whenever there is new flights or jobs, those jobs are added by the manager? 
+Client: New jobs? Do you mean new flights?
+Liew Jwo Young: Ya. For example, this week there are this number of flights, then the next week will be this number of flights. Is it the manager that is in charge of adding this to the system? Or assume somebody will do it?
+Client: If I were to add a flight, that means I have to also indicate which aircraft right? But I already have a fixed number of aircrafts, I am not going to purchase another plane in the next few years.
+Liew Jwo Young: Every week there will be different flights, is it going to be fixed?
+Client: My point just now I was saying, usually the flights are fixed every week.
+Koh Cheng Kiat: So every week it will be the same schedule?
+Client: Ya, unless your system can be very good and change the timing of a certain flight. Why not right? Thanks for suggesting.
+Koh Cheng Kiat: Okay, so generally just assume every week will be the same schedule.
+Client: I would want to make your life easier. That is not the focus of our module. Don't need to go change the timing of the flights.
+Liew Jwo Young: How should the users login? Is there any like security requirements? Do they need 2FA?
+Client: Do you think it is useful? You all are the security experts right? So do you think it is useful? I am not very sure. I am not very IT-savvy. Do you think it is useful for my Captains and Officers to have 2FA? What kind of 2FA are we looking at?
+Liew Jwo Young: SMS
+Client: I don't know, do you all have any pilot friends?
+Koh Cheng Kiat: We can do a survey
+Client: You can do a survey and ask the current system they are using if it has 2FA.
+Liew Jwo Young: Are the users allowed to change their own passwords? Do they have to go through the IT Administrator?
+Client: Let them change their own passwords.
+Liew Jwo Young: How many users are expected to use this? How many staff are there?
+Client: I don't know, maybe all at the same time. I want it to be up 99.9% of the time. If you want to conduct any maintenance, keep it to 3am to 5am if possible.
+Koh Cheng Kiat: What platforms should the application support? Like browsers, whether it should be mobile?
+Client: This is a web app, I don't know what they will be using. If they are using their devices, so it's the popular ones.
+Koh Cheng Kiat: Just assume mobile devices?
+Client: Mobile browsers, it's possible though it is kind of difficult to see.
+Liew Jwo Young: How many pilots and managers do you have? How many staff in total?
+Client: I have 6 training captains, 22 captains, 22 senior first officers, 14 first officers, 8 second officers.
+Liew Jwo Young: All the job data from the past, does that need to be stored? Should the manager be able to view past data?
+Client: Ya, very important.
+Koh Cheng Kiat: For usability, how technically savvy are the users generally?
+Client: They are all pilots, not technically savvy. I am the most savvy amongst them already.
+Client: Anything else that you want me to see like FIGMA, you can email me.
